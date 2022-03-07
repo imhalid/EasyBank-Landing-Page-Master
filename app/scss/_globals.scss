@@ -1,0 +1,75 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Public Sans", sans-serif;
+  font-size: $font-med;
+  line-height: 1.3;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+  color: $grayishBlue;
+}
+
+//Flexbox
+
+.flex {
+  display: flex;
+
+  &-js-sb {
+    justify-content: space-between;
+  }
+
+  &-js-c {
+    justify-content: center;
+  }
+
+  &-ai-c {
+    align-items: center;
+  }
+}
+
+//Buttons
+
+button,
+.button {
+  padding: 0.875rem 2.1875rem;
+  background: linear-gradient(to right, $limeGreen, $brightCyan);
+  border-radius: 50px;
+  border: none;
+  color: $white;
+  font-weight: 400;
+  cursor: pointer;
+  transition: opacity 300ms ease-in-out;
+
+  &:hover {
+    opacity: 0.75;
+  }
+}
+
+//visibility
+
+.hide-for-mobile {
+  @include breakpoint-down(medium) {
+    display: none;
+  }
+}
+
+.hide-for-desktop {
+  @include breakpoint-up(large) {
+    display: none;
+  }
+}
