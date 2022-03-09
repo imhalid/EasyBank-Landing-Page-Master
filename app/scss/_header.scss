@@ -1,4 +1,6 @@
 .header {
+  position: relative;
+  z-index: 1;
   nav {
     position: relative;
     background-color: $white;
