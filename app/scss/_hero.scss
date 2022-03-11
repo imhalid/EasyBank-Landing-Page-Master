@@ -33,13 +33,12 @@
       @include breakpoint-up(large) {
         content: "";
         position: absolute;
-        background-image: url("/images/bg-intro-desktop.svg");
         height: 100%;
+        background-image: url("/images/bg-intro-desktop.svg");
         background-repeat: no-repeat;
         background-position: center bottom;
         width: 150%;
         background-size: 122%;
-        background-repeat: no-repeat;
         background-position: 0% 83%;
       }
     }
