@@ -1,6 +1,6 @@
 # Frontend Mentor - Easybank landing page
 
-[Click To Preview](https://imhalid.github.io/EasyBank-Landing-Page-Master/) 
+[>>>>>> Click To Preview <<<<<<](https://imhalid.github.io/EasyBank-Landing-Page-Master/) 
 
 ## Welcome! 👋
 
